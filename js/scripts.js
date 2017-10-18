@@ -5,8 +5,8 @@ $(document).ready(function() {
     $(this).parent().addClass("green-bg").removeClass("box");
   });
   $(".disappear").click(function() {
-    $(this).prev().slideToggle(900);
-    $(this).slideToggle(1000);
+    $(this).prev().slideToggle(1000);
+    $(this).slideToggle(900);
     $(this).parent().removeClass("green-bg").addClass("box");
   });
 });
