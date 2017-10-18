@@ -3,6 +3,8 @@ h1 {
 }
 h3 {
   text-align: center;
+  width: 50%;
+  margin: 1em auto;
   font-size: 1.7em;
   font-weight: 400;
 }
@@ -10,7 +12,9 @@ p {
   text-align: center;
   padding: 1.4em;
   margin: 0;
-  color: #666;
+  font-size: 1.3em;
+  color: 	#F8F8FF;
+  line-height: 17px;
 }
 .clickable {
   color: #4881ea;
@@ -29,8 +33,11 @@ p {
   transition: background-color .3s ease-in-out;
 }
 .box:hover {
-  background-color: #eee;
+  background-color: #eeeeee;
 }
 .disappear {
   display: none;
+}
+.green-bg {
+  background-color: #5cb85c;
 }
